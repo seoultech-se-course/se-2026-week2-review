@@ -6,13 +6,7 @@ public class Example {
     public static void main(String[] args) {
         Example e = new Example();
         String s = e.reverse("abc", new ArrayList<>());        
-        System.out.println(s);
-        s = e.reverse("", new ArrayList<>());
-        System.out.println(s);
-        s = e.reverse(null, new ArrayList<>());
-        System.out.println(s);
-        s = e.reverse("xyz", null);
-        System.out.println(s);
+        System.out.println(s);        
     }
 
     public String reverse(String str, List<String> list) {
